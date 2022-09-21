@@ -10,6 +10,6 @@ def parse_opt():
 
 if __name__ == "__main__":
     args = parse_opt()
-    translator = pipeline("translation", model=args.checkpoint, device=0)
+    translator = pipeline("translation", model=args.checkpoint)
     output = translator(args.text)[0]['translation_text']
     print(output)
