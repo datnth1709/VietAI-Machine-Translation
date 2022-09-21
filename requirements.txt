@@ -1,0 +1,10 @@
+transformers==4.21.3
+sacremoses==0.0.53
+accelerate==0.12.0
+evaluate==0.2.2
+jiwer==2.3.0
+sacrebleu==2.2.0
+sentencepiece==0.1.97
+datasets==2.4.0
+jsonlines==3.1.0
+tqdm==4.64.0
